@@ -1,0 +1,229 @@
+
+
+.room-details-area{
+    padding-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title-main-box{
+    background-color: #f44336;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.title-main-box h5{
+    font-weight: 900;
+    font-size: 25px;
+    letter-spacing: 3.4px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.des-area-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.des-area-flex .img{
+    width: 50%;
+    margin-top: 32px;
+
+}
+.img img{
+    width: 100%;
+}
+.destination-flex{
+    display: flex;
+    align-items: center;
+}
+.date label{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.date input{
+    padding: 8px;
+    margin-right: 10px;
+}
+.desc-box{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.desc-box h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #2d285b;
+}
+
+.desc-box p{
+    font-size: 15px;
+    color:gray;
+    line-height: 28px;
+}
+
+.desc-box h5{
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.desc-box h5 span{
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.backtoRoom{
+    text-decoration: none;
+    margin-bottom: 30px;
+    background-color: tomato;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.greeting-user{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.images-flex-area{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin-top: 15px;
+}
+.images-flex-area img{
+    cursor: pointer;
+    margin-right: 5px;
+    height: 100px;
+}
+
+.area-for-go{
+    border: 2px solid tomato;
+    padding: 20px 10px; 
+}
+.book{
+    width: 100% !important;
+    margin: 12px 0;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #000;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.booktrue{
+    width: 100% !important;
+    margin: 12px 0;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: tomato;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.booked-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+    background-color: tomato;
+}
+
+.booked-info h6{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 0;
+    color: #fff;
+    font-weight: 900;
+}
+
+.booked-info h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 0;
+    color: #fff;
+}
+.booked-info p{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #fff;
+}
+
+.booked-info p span{
+    font-size: 20px;
+    background-color: #000;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.back{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    background-color: #000;
+    padding: 10px;
+}
+
+@media screen and (max-width:768px){
+    .des-area-flex{
+        flex-direction: column;
+    }
+
+    .des-area-flex .img{
+        width: 100%;
+    }
+    .desc-box{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .booked-info h1{
+        font-size: 18px;
+    }
+    .booked-info h6{
+        font-size: 14px;
+    }
+    .booked-info p{
+        font-size: 10px;
+    }
+    .booked-info p span{
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    .desc-box h1{
+        font-size: 20px;
+    }
+
+    .desc-box h5{
+        font-size: 15px;
+    }
+    .desc-box h5 span{
+        font-size: 12px;
+    }
+    .destination-flex{
+        flex-direction: column;
+    }
+    .date{
+        margin-top: 8px;
+    }
+    .date .last{
+        margin-left: 15px;
+    }
+}

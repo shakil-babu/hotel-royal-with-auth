@@ -1,0 +1,88 @@
+
+
+.footer-area{
+    background-color: #2d285b;
+    padding: 40px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-info h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 900;
+}
+
+.subs-flex{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: center
+
+}
+
+.subs-flex input{
+    padding: 10px;
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 4px;
+    outline: none;
+}
+
+.subs-flex .btn{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    color: #000;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.subs-flex .btn-color{
+    background: #f44336;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.footer-info p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+}
+
+@media screen and (max-width:576px){
+    .subs-flex{
+        flex-direction: column;
+    }
+
+    .footer-info h3{
+        font-size: 16px;
+    }
+
+    .subs-flex{
+        width: 80%;
+    }
+    .subs-flex input{
+        width: 100%;
+    }
+    .subs-flex button{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+}

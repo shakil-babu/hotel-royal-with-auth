@@ -1,0 +1,96 @@
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header-info-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 580px;
+    background-color: #2d285b;
+}
+
+.title-container{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title-container h5{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.title-container h1{
+    text-transform: uppercase;
+    font-size: 102px;
+    margin: 0;
+    color: #fff;
+    font-weight: 900;
+}
+.title-container h3{
+    width: 100%;
+    text-shadow: 0 0 8px rgba(0,0,0,.15);
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+}
+
+.title-container .underline{
+    width: 30%;
+    margin:15px auto;
+    height: 3px;
+    background-color: #000;
+}
+.title-container p{
+    padding-bottom: 20px;
+    opacity: .75;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.get-started{
+    background: #f44336;
+    color: #fff;
+    padding: 19px 33px;
+    margin: 30px 0 0;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 800;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.MuiButton-containedPrimary{
+    background-color: #2d285b !important;
+}
+
+@media screen and (max-width:768px){
+    .title-container h1{
+        font-size: 40px;
+    }
+    .title-container h3{
+        font-size: 25px;
+    }
+    .title-container h5{
+        font-size: 18px;
+    }
+    .title-container p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .get-started{
+        font-size: 20px;
+    }
+}
